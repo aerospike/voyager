@@ -1,0 +1,14 @@
+name: PR Hygiene - Jira Ticket in Title
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-jira-ticket:
+    uses: aerospike/shared-workflows/.github/workflows/reusable_pr-hygiene.yml@7f633569d89f706899e6b8f2151a3b200576c1fd # v3.1.1
+    with:
+      pr_title: ${{ github.event.pull_request.title }}

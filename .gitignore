@@ -1,0 +1,72 @@
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor files
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+.project
+.settings/
+.classpath
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+venv/
+env/
+
+# Test coverage
+coverage/
+.coverage
+*.cover
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.cache
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# IDE-specific
+.metadata
+bin/
+target/
+.gradle/
+
+# Trunk
+.trunk/out/
+.trunk/logs/
+.trunk/notifications/
+.trunk/plugins/

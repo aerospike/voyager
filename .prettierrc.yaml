@@ -1,0 +1,4 @@
+# Tabs is an accessibility accommodation for some users.
+# You might be fine with 2 spaces, some people need 6 visual spaces.
+useTabs: true
+bracketSpacing: true
