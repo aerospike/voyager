@@ -28,7 +28,7 @@ jobs:
 
       - name: Extract version
         id: extract
-        uses: aerospike/shared-workflows/.github/actions/extract-version-from-tag@7f633569d89f706899e6b8f2151a3b200576c1fd # v3.1.1
+        uses: aerospike/shared-workflows/.github/actions/extract-version-from-tag@8f53b63b33d86e63aeb37d951283dd974574885b # v3.2.0
 
   cicd:
     needs: extract-version
