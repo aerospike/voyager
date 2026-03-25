@@ -26,7 +26,7 @@ Voyager is a desktop application for exploring and managing data in [Aerospike](
 
 ## Installation
 
-Download the latest release for your platform from the [Releases](https://github.com/aerospike/voyager/releases) page.
+Download the latest release for your platform in the Assets section of the [Releases](https://github.com/aerospike/voyager/releases) page.
 
 ### MacOS
 
