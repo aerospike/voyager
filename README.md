@@ -1,74 +1,33 @@
-# Voyager — Aerospike Data Browser
+# Aerospike Voyager (Preview)
 
-Voyager is a desktop application for exploring and managing data in [Aerospike](https://aerospike.com) databases. Connect to any local or self-managed cluster, browse namespaces and sets, inspect records with full CDT (Collection Data Type) support, and perform safe CRUD operations — all from a native GUI.
+Voyager is the visual workspace for Aerospike that takes you from first Aerospike connection to production code in one tool. **Currently in Preview** for macOS, Windows, and Linux.
 
-## Features
+## Share feedback
 
-- **Connect** to localhost, IP-accessible, and self-hosted cloud (AWS/GCP) clusters with optional TLS and authentication
-- **Browse data** hierarchically: Namespaces → Sets → Records
-- **Inspect records** including metadata (TTL, generation, digest, partition ID) and nested List/Map structures
-- **Filter records** using Aerospike server-side expressions — key/digest lookup, bin filters, CDT filters, metadata filters, logical AND/OR
-- **Edit records** inline with type preservation, create new records, delete records or individual bins
-- **Upload sample data** to quickly explore Aerospike capabilities with pre-built datasets
-- **Built-in safety** — confirmation dialogs for destructive operations, generation-based conflict detection, full-scan protection
-- **Auto-update** — checks for new releases and updates in place
+**This repo exists to collect feedback during Preview.** That is its primary purpose.
 
-## Supported Platforms
+- [File an issue](https://github.com/aerospike/voyager/issues/new) to report a bug, request a feature, or share any reaction.
+- Browse [open issues](https://github.com/aerospike/voyager/issues) first so we can consolidate common themes.
+- Rough sketches, half-formed thoughts, and "this felt weird" notes are all welcome.
 
-| Platform | Architecture | Format |
-|---|---|---|
-| MacOS | Intel (amd64) | `.dmg` |
-| MacOS | Apple Silicon (arm64) | `.dmg` |
-| Linux | amd64 | `.deb`, `.rpm` |
-| Linux | arm64 | `.deb`, `.rpm` |
-| Windows | amd64 | Installer (`.exe`) |
-| Windows | arm64 | Installer (`.exe`) |
+## What Voyager does
 
-## Installation
+- **Connect** to local, self-hosted, or cloud Aerospike clusters, with optional TLS and authentication.
+- **Browse** namespaces, sets, and records hierarchically, including nested List and Map (CDT) structures.
+- **Filter** records using Aerospike Expression Language, either through a visual builder or by writing the expression directly. The same string pastes into your Java or Python SDK via `.where(...)`.
+- **Edit** records inline with type preservation. Create and delete records or individual bins.
+- **Upload sample datasets** to explore Aerospike capabilities without setting up your own data first.
+- **Cancel long-running scans** mid-flight. Configurable query timeouts keep exploration from turning into an incident.
+- **Query from AI agents.** An embedded MCP server lets Claude Code, Cursor, or any MCP client hit your cluster in the same expression language, with a Read-Only profile by default.
+- **Auto-update** to the latest Preview build.
 
-Download the latest release for your platform in the Assets section of the [Releases](https://github.com/aerospike/voyager/releases) page.
+## Get Voyager
 
-### MacOS
+Download and the full product walkthrough: **[aerospike.com/products/voyager](https://aerospike.com/products/voyager)**.
 
-1. Download the `.dmg` file for your architecture
-2. Open the DMG and drag **Voyager** to your Applications folder
-3. Launch Voyager from Applications
+## Learn Voyager
 
-> On first launch, macOS may show a security prompt. The application is signed and notarized by Aerospike.
-
-### Linux
-
-**Debian / Ubuntu (.deb):**
-
-```bash
-sudo dpkg -i voyager-linux-amd64-*.deb
-```
-
-**RHEL / Fedora (.rpm):**
-
-```bash
-sudo rpm -i voyager-linux-amd64-*.rpm
-```
-
-### Windows
-
-1. Download the installer (`.exe`) for your architecture
-2. Run the installer and follow the prompts
-3. Launch Voyager from the Start Menu or Desktop Shortcut
-
-## Compatibility
-
-- Aerospike Server 6.x, 7.x, 8.x
-
-## Getting Started
-
-1. Launch Voyager
-2. Click **Add Connection** and enter your cluster's host and port (default: `127.0.0.1:3000`)
-3. Optionally configure TLS certificates and authentication credentials
-4. Click **Test Connection** to verify connectivity, then **Save**
-5. Start browsing your namespaces, sets, and records
-
-If you don't have data yet, use the **Upload Sample Data** feature to load pre-built datasets and start exploring right away.
+Quickstart, reference, and guides: **[aerospike.com/docs/database/tools/voyager](https://aerospike.com/docs/database/tools/voyager/)**.
 
 ## License
 
