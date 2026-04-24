@@ -23,7 +23,11 @@ Voyager is the visual workspace for Aerospike that takes you from first Aerospik
 
 ## Get Voyager
 
-Download, docs, and the full walkthrough: **[aerospike.com/products/voyager](https://aerospike.com/products/voyager)**.
+Download and the full product walkthrough: **[aerospike.com/products/voyager](https://aerospike.com/products/voyager)**.
+
+## Learn Voyager
+
+Quickstart, reference, and guides: **[aerospike.com/docs/database/tools/voyager](https://aerospike.com/docs/database/tools/voyager/)**.
 
 ## License
 
