@@ -7,6 +7,7 @@ Voyager is the visual workspace for Aerospike that takes you from first Aerospik
 **This repo exists to collect feedback during Preview.** That is its primary purpose.
 
 - [File an issue](https://github.com/aerospike/voyager/issues/new?template=bug_report.md) to report a bug, request a feature, or share any reaction.
+- [Request a feature](https://github.com/aerospike/voyager/issues/new?template=feature_request.md) to suggest something new you'd like Voyager to do.
 - Browse [open issues](https://github.com/aerospike/voyager/issues) first so we can consolidate common themes.
 - Rough sketches, half-formed thoughts, and "this felt weird" notes are all welcome.
 
