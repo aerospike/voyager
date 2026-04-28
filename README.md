@@ -29,7 +29,3 @@ Download and the full product walkthrough: **[aerospike.com/products/voyager](ht
 ## Learn Voyager
 
 Quickstart, reference, and guides: **[aerospike.com/docs/database/tools/voyager](https://aerospike.com/docs/database/tools/voyager/)**.
-
-## License
-
-[MIT](LICENSE)
